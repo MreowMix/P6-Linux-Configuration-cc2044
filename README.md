@@ -7,10 +7,13 @@ _____________
 - IP Address: 54.159.15.167
 - SSH port: 2200
 - URL: http://54.159.15.167.xip.io/
+- Software installed:
+  - Apache, Mog_wsgi, Git, VirtualVEnv, Python, Pip, Flask, PostgreSQL, SQLAlchemy, Google OAuth, HTTPLib2, Psycopg2, Requests
 
 # Third Party Resources
 * [Amazon Lightsail](lightsail.aws.amazon.com/)
 * [Xip.io](xip.io)
+* [Deploying Flask App](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps#step-one%E2%80%94-install-and-enable-mod_wsgi)
 
 # Accessing the Amazon Lightsail VM
 - Download the .pem key provided by Amazon Lightsail and move to ~/.ssh
@@ -158,10 +161,6 @@ application.secret_key = 'super_secret_key'
   - Make sure the account OAuth has the IP address added.
   - Update client_secrets files in app.
   - Google does not take IP addresses, use [IP address].xip.io instead both in OAuth and `/etc/apache2/sites-available/FlaskApp.conf`
-
-# References
-- [Deploying Flask App](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps#step-one%E2%80%94-install-and-enable-mod_wsgi)
-
 
 
 
