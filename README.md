@@ -1,5 +1,3 @@
-A README file is included in the GitHub repo containing the following information: IP address, URL, summary of software installed, summary of configurations made, and a list of third-party resources used to complete this project.
-
 # Linux Configuration - Udacity
 ### Full Stack Web Development - Caroleen Chen
 _____________
